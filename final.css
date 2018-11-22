@@ -1,0 +1,304 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: white;
+}
+
+#nav {
+	float: center;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+    top: 0;
+}
+
+#nav .logo {
+    width: 60px;
+    float: left;
+    margin-top: 6px;
+}
+
+
+
+.navbutton {
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #36bca4;
+    border: none;
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 14px 50px;
+    -webkit-box-shadow: 0 8px 6px -6px #8888,1px 1px 3px rgba(0, 0, 0, 0.1) inset;
+    
+    
+}
+
+
+.navbutton:hover {
+    
+    background-color: white;
+    color: #36bca4;
+    border: 1px solid #36bca4;
+    -webkit-box-shadow: 0 8px 6px -6px #8888, 0 0 3px rgba(0, 0, 0, 0.1) inset;
+    
+    
+}
+
+.navbutton1 {
+            background-color: #36bca4;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            color: white;
+            border: none;
+            font-size: 25px;
+            padding: 14px 50px;
+            -webkit-box-shadow: 0 8px 6px -6px #8888, 0 1px 3px 2px rgba(0, 0, 0, 0.2) inset;
+        
+            
+            }
+            
+.navbutton1:hover {
+            background-color: white;
+            color: #36bca4;
+            border: 2px solid #36bca4;
+            -webkit-box-shadow: 0 8px 6px -6px #8888, 0 0 7px rgba(0, 0, 0, 0.2) inset;
+    
+            
+            }
+
+.boxinfo ikon {
+    width: 55px;
+    z-index: 2;
+    position:absolute;
+    top: 2%;
+    padding-top: 30px;
+}
+.ikon{
+    width: 55px;
+    padding-top: 30px;
+}
+.comshare {
+    margin-top: 90px;
+    margin-left: 75px;
+    z-index: 1;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    ms-transform: rotate(-7.5deg);
+    -webkit-transform: rotate(-7.5deg);
+    transform: rotate(-7.5deg);
+}
+
+.header {
+    width: 100%;
+    height: 600px;
+    background: url(header.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    clip-path: polygon(0 30%, 100% 0, 100% 1000%, 0 100%);
+    position:relative;
+    margin-top: 50px;
+  
+}
+
+
+.avsnitt {
+    background-color: #36bca4;
+    color: white;
+    font-family: 'Niramit', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.avsnitt h1 {
+    padding-top: 50px;
+    font-family: 'Niramit', sans-serif;
+}
+
+.avsnitt h2 {
+    padding-top: 10px;
+    font-family: 'Niramit', sans-serif;
+}
+
+.avsnitt p {
+    padding-bottom: 50px;
+    font-family: 'Niramit', sans-serif;
+}
+
+
+
+.infobox {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    position:inherit;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+
+.boxinfo {
+    border-radius: 15px 50px 30px;
+    border: 3px round #36bca4;
+    width: 300px;
+    height: 300px;
+    background-color: #36bca4;;
+    text-align: center;
+    font-family: 'Niramit', sans-serif;
+    margin: 0 auto;
+    float: center;
+    
+}
+
+
+.infobox h3 {
+    color: white;
+    padding-top: 3px;
+}
+
+.infobox p {
+}
+
+#slider{
+    margin: 0 auto;
+    float: center;
+    padding-top: 25%;
+}
+
+#slider{
+    width: 90vw;
+    height: auto;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 25s slider infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    height: 300px;
+    float: left;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left: -100%
+    }
+    45{
+        left: -100%
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    90%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+.kontakt {
+
+    padding-bottom: 200px;
+    position: relative;
+    
+
+
+}
+
+.kontakt h2{
+  padding-bottom: 35px;
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+.kontakt img {
+  display: flex;
+  flex-direction: row;
+  position: inherit;
+  align-content: center;
+  width: 70px;
+  height: auto;
+  margin: 0 100px;
+}
+
+
+
+
+
+
+
+#footer{
+  background-color: #36bca4;
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
+
+}
+
+.logofooter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.logofooter a{
+
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: white;
+  color: black;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.logofooter a:hover{
+  background: #e67e22;
+}
+
+.logofooter a:hover > i {
+  transform: scale(1.6) rotate(25deg);
+}
