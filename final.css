@@ -18,13 +18,16 @@ main{
     width: 100%;
     height: 5em;
     top: 0;
+	-webkit-box-shadow: 0 8px 6px -6px #8888, 0 0 7px rgba(0, 0, 0, 0.2) inset;
 }
 
 #nav .logo {
-    width: 3em;
+    width: 4%;
     float: left;
     margin-top: 1%;
     margin-left: 1%;
+	border-radius: 50%;
+	border: 1px solid #36bca4;;
 }
 
 
@@ -91,6 +94,20 @@ main{
             
             }
 
+.flagg {
+	
+	width: 15%;
+	float: right;
+	margin-top: 2%;
+	padding: 0;
+}
+
+.flagg img {
+	width: 15%;
+	border-radius: 50%;
+	margin-top: 0;
+}
+
 .boxinfo ikon {
     width: 55%;
     z-index: 2;
@@ -147,8 +164,9 @@ header {
     height: auto;
     display: inline-block;
     background-color: #36bca4;
-        padding-top: 3%;
+    padding-top: 3%;
     padding-bottom: 3%;
+	margin-top: 10%;
 }
 
 .testimagebilde {
@@ -157,7 +175,7 @@ header {
     height: 60%;
     float: right;
     margin-right: 2%;
-    margin-top: 1%;
+    margin-top: 5%;
     background-color: #36bca4;
 }
 
@@ -166,33 +184,43 @@ header {
     padding: 1%;
     float: left;
     margin-top: 2%;
+    text-shadow: 2px 2px #8888;
 }
+
+
 
 .testimagebilde img {
     overflow: hidden;
     border-radius: 10% 5%;
     width: 100%;
     margin-bottom: 1%;
+    border: 5px solid #ddd;
+    
 }
 
 #textbox {
     font-family: 'Niramit', sans-serif;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
+    
 }
 
-.testimage h2 {
+.testimagetext h2 {
     margin-top: 2%;
     text-transform: capitalize;
     color: white;
-    font-size: 50px;
+    font-size: 200%;
     font-family: 'Niramit', sans-serif;
 }
+
+
 
 .secondsection {
     background-color: white;
     height: auto;
     overflow: hidden;
+    display: inline-block;
+    position: static;
 }
 
 .secondsection h1 {
@@ -203,13 +231,7 @@ header {
     font-size: 50px;
 }
 
-.secondsection .solutionh1 {
-    padding-top: 1%;
-    margin-left: 7%;
-    text-transform: capitalize;
-    color: #36bca4;
-    font-size: 50px;
-}
+
 
 article h6 {
     text-transform: capitalize;
@@ -226,7 +248,7 @@ article h6 {
 
 article {
     margin-bottom: 15%;
-    width: 105%;
+    width: 100%;
 }
 
 article p {
@@ -240,6 +262,73 @@ article p {
     border-left: 1px solid #36bca4;
     border-right: 1px solid #36bca4;
 }
+
+.container {
+    font-family: 'Niramit', sans-serif;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.containerp {
+    border: 1px solid #36bca4;
+    margin-bottom: 10%;
+    color: #2c8f88;
+    margin-bottom: 10%;
+    -webkit-box-shadow: 0 8px 6px -6px #8888, 0 1px 3px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+.containerp1 {
+    border: 1px solid #36bca4;
+    background-color: #36bca4;
+    color: white;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    font-size: 20px;
+    -webkit-box-shadow: 0 8px 6px -6px #8888, 0 1px 3px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+.containerp1 p {
+    margin-top: 6%;
+    text-shadow: 2px 2px #8888;
+}
+
+.apphoto {
+    vertical-align: middle;
+    float: center;
+	position: static;
+	width: auto;
+	margin-top: 2%;
+	
+	display: inline;
+    
+    
+ 
+	
+}
+
+.apphoto img {
+	width: 50%;
+}
+
+.container p {
+    font-size: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container h1 {
+    color: #36bca4;
+    
+    margin-top: 5%;
+    
+}
+
+.container h3 {
+    color: #36bca4;
+    margin-top: 3%;
+}
+
 
 
 
@@ -266,6 +355,7 @@ article p {
 
 .avsnitt p {
     padding-bottom: 4%;
+	margin: 4%;
     font-family: 'Niramit', sans-serif;
 }
 
@@ -279,8 +369,20 @@ article p {
     display: flex;
     flex-direction: row;
     position:inherit;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+}
+
+.infobox1 {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    position:inherit;
+    margin-left: 5%;
+    margin-right: 5%;
+    
     
 }
 
@@ -288,15 +390,52 @@ article p {
 .boxinfo {
     border-radius: 15% 25% 15%;
     border: 3px round #36bca4;
-    width: 60%;
+    width: 100%;
     height: auto;
     background-color: #36bca4;;
     text-align: center;
     font-family: 'Niramit', sans-serif;
     margin-left: 3%;
     float: center;
-    
+    -webkit-box-shadow: 0 8px 6px -6px #8888, 0 1px 3px 2px rgba(0, 0, 0, 0.2) inset;
+
 }
+
+.boxinfologo {
+	margin-top: 20%;
+	width: 60%;
+	border-radius: 15% 25% 15%;
+	background-color: white;
+	-webkit-box-shadow: 0 8px 6px -6px #8888, 0 1px 3px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+.boxinfo img {
+    -webkit-box-shadow: 0 8px 6px -6px #8888, 0 1px 3px 2px rgba(0, 0, 0, 0.2) inset;
+
+}
+
+.boxinfoi {
+    border-radius: 15% 25% 15%;
+    border: 3px round #36bca4;
+    width: 70%;
+    height: auto;
+    background-color: #36bca4;;
+    text-align: center;
+    font-family: 'Niramit', sans-serif;
+    margin-left: 3%;
+    float: center;
+    -webkit-box-shadow: 0 8px 6px -6px #8888, 0 1px 3px 2px rgba(0, 0, 0, 0.2) inset;
+
+}
+
+.boxinfoi p {
+    margin-left: 15%;
+    margin-right: 15%;
+	margin-bottom: 10%;
+    color: white;
+
+}
+
 
 
 .infobox h3 {
@@ -304,8 +443,7 @@ article p {
     padding-top: 3px;
 }
 
-.infobox p {
-}
+
 
 .infoboxcontainer {
     margin-bottom: 8%;
@@ -330,20 +468,18 @@ article p {
     margin-top: 3%;
 }
 
-#slider{
-    margin: 0 auto;
-    float: center;
-    padding-top: 6%;
-}
 
 #slider{
-    width: 90vw;
+    width:55%;
     height: auto;
     opacity: 0.8;
     filter: alpha(opacity=50);
-    margin-left: 5%;
-    margin-right: 5%;
+    
     overflow: hidden;
+    margin: 0 auto;
+    float: center;
+    
+    margin-bottom: 5%
 }
 
 #slider figure{
@@ -355,7 +491,7 @@ article p {
 }
 
 #slider figure img{
-    width: 20%;
+    width:20%;
     height: 25em;
     float: left;
 }
@@ -390,90 +526,64 @@ article p {
     }
 }
 
-.kontakt {
-
-    padding-bottom: 25%;
-    position: relative;
-    
-
-
-}
-
-.kontakt h2{
-  padding-bottom: 5%;
-  text-align: center;
-  font-size: 3em;
-  font-family: 'Niramit', sans-serif;
-  font-weight: normal;
-}
-
-.kontakt img {
-  display: inline-block;
-  float: left;
-  position: inherit;
-  align-content: center;
-  width: 4%;
-  height: auto;
-}
-
-.kontakt .mail {
-    margin-left: 45%;
-}
-
-.kontakt .tlf {
-    margin-left: 3%;
-    width: 4%;
-} 
-
-
-
-
-
 #footer{
   background-color: #36bca4;
-  width: 100%;
   position: relative;
-  height: 10em;
-  margin-top: -10em;
+  height: 100px;
+  width: 100%;
   clear: both;
 
 }
 
 .logofooter{
-  position: absolute;
+  float: right;
+  margin-top: 5%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  /*transform: translate(-50%, -50%); */
 
 }
 
-.logofooter a{
 
-  display: inline-flex;
-  width: 3em;
-  height: 3em;
+
+.logofooter img {
+	display: inline-block;
+  width: 40px;
+  height: 40px;
   background: white;
   color: black;
   margin: 0 6px;
   border-radius: 50%;
-  justify-content: center;
-  align-items: center;
   transition: 0.4s;
+  font-size: 26px;
   text-decoration: none;
+  
 }
 
-.logofooter a:hover{
+.logofooter img:hover{
   background: #e67e22;
 }
 
-.logofooter a:hover > i {
-  transform: scale(1.6) rotate(25deg);
+
+
+.kontakt {
+  float: left;
+  margin-left: 2%;
 }
+
+.kontakt h5{
+  font-size: 100%;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+
 
 @media only screen and (max-width:1200px){
     
     #nav {
-        height: 4em;
+        height: 3em;
     }
     
     .header img {
@@ -511,6 +621,63 @@ article p {
         height: 30%;
         max-height: 30%;
     }
+	
+	.navbutton, .navbutton1, .navbutton:hover, .navbutton1:hover p {
+		margin-top: 0;
+	}
+	
+	#nav .logo {
+		margin-top: 1em;
+		width: 2%;
+		float: left;
+		padding: 0;
+	}
+	
+	
+	
+	.flagg {
+		margin-top: 1em;
+		
+	}
+	
+	
+	
+	.infobox1 {
+    display: block;
+	height: auto;
+	margin: auto;
+	margin-top: 5%;
+    
+    
+}
+	
+	.boxinfoi {
+    border-radius: 15% 25% 15%;
+    border: 3px round #36bca4;
+    width: 70%;
+    height: auto;
+    background-color: #36bca4;;
+    text-align: center;
+    font-family: 'Niramit', sans-serif;
+    margin: auto;
+    float: none
+    -webkit-box-shadow: 0 8px 6px -6px #8888, 0 1px 3px 2px rgba(0, 0, 0, 0.2) inset;
+		display: block;
+
+}
+
+.boxinfoi p {
+    margin-left: 15%;
+    margin-right: 15%;
+	padding-bottom: 10%;
+    color: white;
+
+}
+	
+	.infoboxcontainer {
+		height: auto;
+		margin: auto;
+	}
     
 
 
@@ -518,12 +685,17 @@ article p {
     
 .testimagebilde {
     display: block;
-    width: 80%;
+    width: 70%;
     float: none;
     margin-top: 1%;
     background-color: #36bca4;
     margin: auto;
 }
+	
+	.testimagebilde img {
+		width: 50%;
+	}
+	
 
 .testimagetext {
     width: 80vw;
@@ -538,6 +710,8 @@ article p {
     width: 30px;
     height: 30px;
 }
+	
+
     
 }
 
@@ -558,35 +732,49 @@ article p {
 }
     .navbutton {
         font-size: 70%;
-        width: 16%;
-        max-width: 16%;
+        width: 10%;
+        max-width: 10%;
         height: 7%;
         max-height: 7%;
     }
     
     .navbutton:hover {
         font-size: 70%;
-        width: 16%;
-        max-width: 16%;
+        width: 10%;
+        max-width: 10%;
         height: 7%;
         max-height: 7%;
     }
     
     .navbutton1 {
         font-size: 70%;
-        width: 16%;
-        max-width: 16%;
+        width: 10%;
+        max-width: 10%;
         height: 7%;
         max-height: 7%;
     }
     
     .navbutton1:hover {
         font-size: 70%;
-        width: 16%;
-        max-width: 16%;
+        width: 10%;
+        max-width: 10%;
         height: 7%;
         max-height: 7%;
     }
+	
+	.logo {
+		margin-top: 10%;
+	}
+	
+	.flagg {
+		width: 20%;
+	}
+	
+	.flagg img {
+		width: 20%;
+	}
+	
+	
     
 }
 
@@ -597,7 +785,24 @@ article p {
     margin-top: 0%;
 }
     
+    	.apphoto {
     
+	
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    
+    
+ 
+	
+}
+
+.apphoto img {
+	
+	margin: auto;
+}
     
     
     article {
@@ -611,48 +816,41 @@ article p {
         margin-bottom: 5%;
         width: 80%;
     }
-    
-       /* #menu-icon {
-
-		display:inline-block;
-
+	
+	.navbutton, .navbutton1 {
+		width: 20%;
+		height: auto;
+		font-size: 40%;
 	}
-    
-    nav {
-        float: right;
-        padding: 20px;
-    }
-
-	nav a, nav:active a { 
-
-		display: none;
-		position: absolute;
-		padding: 20px;
-		background: #fff;
-		border: 5px solid #444;
-		right: 20px;
-		top: 60px;
-		width: 50%;
-		border-radius: 4px 0 4px 4px;
-
+	
+	.navbutton:hover, .navbutton1:hover {
+		width: 20%;
+		height: auto;
+		font-size: 40%;
 	}
-
-	nav li {
-
-		text-align: center;
+	
+	.navbutton, .navbutton1, .navbutton:hover, .navbutton1:hover p {
+		margin-top: 0;
+		padding-top: 5%;
+	}
+	
+	.flagg {
+		width: 20%;
+		margin-left: 0;
+	}
+	
+	.flagg img {
+		width: 30%;
+	}
+	
+	.logo img {
+		margin-top: 20%;
+	}
+	
+	.avsnitt {
 		width: 100%;
-		padding: 10px 0;
-		margin: 0;
-
 	}
-
-	nav:hover ul {
-
-		display: block;
     
-    display: none på css på mobil for navbar
-    display: block på drop meny
-
-	}*/
+	
 
 }
